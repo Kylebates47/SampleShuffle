@@ -1,0 +1,51 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-size: 1.2em;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+  }
+  
+  body {
+    background: #485563;
+    background: -webkit-gradient(linear, left top, left bottom, from(#485563), to(#29323c));
+    background: linear-gradient(to bottom, #485563, #29323c);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #container {
+    background-color: #fff;
+    color: #4d4e53;
+    width: 400px;
+    border-radius: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  #container ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  #container ul li {
+    padding: 8px;
+    padding-left: 16px;
+    border-bottom: 1px solid #ebebeb;
+  }
+  #container ul li:first-child {
+    border-top: 1px solid #ebebeb;
+  }
+  #container ul li > .playstate {
+    padding-right: 8px;
+    float: right;
+  }
+  #container ul li > .playstate > .fa-volume-off {
+    padding-right: 0.5em;
+  }
+  
